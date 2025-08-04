@@ -13,8 +13,8 @@ const WelcomePage = () => {
                     <button className='border-2 border-white text-white font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-white/20 transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-white' onClick={() => navigate('/register')}>Register</button>
                 </div>
             </div>
-            <div>
-                <p className='mt- text-white text-sm opacity-80'>
+            <div className='text-center mt-4'>
+                <p className=' text-white text-sm opacity-80'>
                     An Internship project by <span className='text-yellow-300'>Sayan Ray</span> while interning at <span className='text-yellow-300'>Zidio Development</span>.
                 </p>
             </div>
