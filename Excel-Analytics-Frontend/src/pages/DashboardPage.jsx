@@ -467,7 +467,7 @@ const DashboardPage = () => {
 
             {/* User Role Display */}
             <div className="mb-8 p-4 bg-blue-50 rounded-md border border-blue-200">
-                {!user.isAdmin &&b (
+                {!user.isAdmin && (
                     <p className="text-blue-700 text-sm mt-1">
                     As a User, your access is restricted to User Dashboard.
                 </p>
